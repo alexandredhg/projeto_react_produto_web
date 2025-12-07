@@ -34,7 +34,7 @@ const FormCadProduto = ({ adicionar_produto }) => {
             aria-label="Nome do produto listado"
             value={input_nomeProduto}
             tabIndex={1}
-            style={{ width: "80%", height: "2.5rem", backgroundColor: "white", 
+            style={{ width: "65%", height: "2.5rem", backgroundColor: "white", 
               border:"2px solid black",   
               textAlign: "center", fontSize: "1.5rem", fontFamily: "arial" 
             }}
@@ -57,7 +57,7 @@ const FormCadProduto = ({ adicionar_produto }) => {
             aria-label="Valor do produto listado"
             value={input_valorProduto}
             tabIndex={1}
-            style={{ width: "80%", height: "2.5rem", backgroundColor: "white", 
+            style={{ width: "65%", height: "2.5rem", backgroundColor: "white", 
               border:"2px solid black",  
               textAlign: "center", fontSize: "1.5rem", fontFamily: "arial" 
             }}
