@@ -34,9 +34,10 @@ margin-top: 25px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 20px;
+  gap: 1rem;
   font-size: 1.5rem;
   font-family: Arial, Helvetica, sans-serif;
+  margin-top: 2rem;
 }
 
 .h1{
@@ -168,66 +169,66 @@ margin-top: 25px;
     }*/
 
     .h1{
-  font-size: 3rem;
-  font-family: Arial, Helvetica, sans-serif; 
-  text-align: center;
+      font-size: 2.5rem;
+      font-family: Arial, Helvetica, sans-serif; 
+      text-align: center;
 
-}
+    }
 
     .h2{
       display: flex;
       flex-direction: column;
       align-items: center;
-      gap: 20px;
-      font-size: 1.5rem;
+      gap: 1rem;
+      font-size: 2rem;
       font-family: Arial, Helvetica, sans-serif;
+      margin-top: 1rem;
     }
 
 
     .grid-botoes{
       display:  flex;
-      justify-content: space-evenly;
+      flex-direction: column;
       align-items: center;
 
     }
 
     .btn-Excluir{    
-      font-size: 2.5rem;
+      font-size: 2rem;
       font-family: Arial, Helvetica, sans-serif;
-      height: 6rem;
-      width: 70%;
+      height: 7rem;
+      width: 80%;
           
     }
 
     .btn-Detalhes{
-      font-size: 2.5rem;
+      font-size: 2rem;
       font-family: Arial, Helvetica, sans-serif;
-      height: 6rem;
-      width: 70%;  
+      height: 7rem;
+      width: 80%;  
           
     }
 
     .btn-Adicionar{     
       
-      font-size: 2.5rem;
+      font-size: 2rem;
       font-family: Arial, Helvetica, sans-serif;
-      height: 6rem;
+      height: 7rem;
       width: 70%;  
       margin-top: 2rem;
           
     }
 
-    .paragrafo{
-      
+    .paragrafo{      
       width: 85%;
-      height: 6rem;
-      font-size: 2.5rem;
+      height: 7rem;
+      font-size: 2rem;
       font-family: Arial, Helvetica, sans-serif;
       text-align: center;
       display: flex;
       justify-content: center;
       align-items: center;
-      margin-top: 5rem;
+      margin-top: 2rem;
 
     }
 
@@ -238,28 +239,30 @@ margin-top: 25px;
     }
 
     .btn-Alterar{   
-      font-size: 2.5rem;
+      font-size: 2rem;
       font-family: Arial, Helvetica, sans-serif;
-      height: 6rem;
+      height: 7rem;
       width: 70%;      
     }
 
     .btn-Voltar{  
-      font-size: 2.5rem;
+      font-size: 2rem;
       font-family: Arial, Helvetica, sans-serif;
-      height: 6rem;
+      height: 7rem;
       width: 70%;  
           
     }
 
     .margin{
-      margin-top: 5rem;
+      margin-top: 2rem;
     }
 
   }
 
 
-  @media (max-width: 500px) {
+
+
+  @media (max-width: 800px) {
     body{
         margin-left: 10px;
         margin-right: 10px;
@@ -283,66 +286,66 @@ margin-top: 25px;
     }*/
 
     .h1{
-  font-size: 3rem;
-  font-family: Arial, Helvetica, sans-serif; 
-  text-align: center;
+      font-size: 2.5rem;
+      font-family: Arial, Helvetica, sans-serif; 
+      text-align: center;
 
-}
+    }
 
     .h2{
       display: flex;
       flex-direction: column;
       align-items: center;
-      gap: 20px;
-      font-size: 1.5rem;
+      gap: 1rem;
+      font-size: 2rem;
       font-family: Arial, Helvetica, sans-serif;
+      margin-top: 1rem;
     }
 
 
     .grid-botoes{
       display:  flex;
-      justify-content: space-evenly;
+      flex-direction: column;
       align-items: center;
 
     }
 
     .btn-Excluir{    
-      font-size: 2.5rem;
+      font-size: 2rem;
       font-family: Arial, Helvetica, sans-serif;
-      height: 6rem;
-      width: 70%;
+      height: 7rem;
+      width: 80%;
           
     }
 
     .btn-Detalhes{
-      font-size: 2.5rem;
+      font-size: 2rem;
       font-family: Arial, Helvetica, sans-serif;
-      height: 6rem;
-      width: 70%;  
+      height: 7rem;
+      width: 80%;  
           
     }
 
     .btn-Adicionar{     
       
-      font-size: 2.5rem;
+      font-size: 2rem;
       font-family: Arial, Helvetica, sans-serif;
-      height: 6rem;
+      height: 7rem;
       width: 70%;  
       margin-top: 2rem;
           
     }
 
-    .paragrafo{
-      
+    .paragrafo{      
       width: 85%;
-      height: 6rem;
-      font-size: 2.5rem;
+      height: 7rem;
+      font-size: 2rem;
       font-family: Arial, Helvetica, sans-serif;
       text-align: center;
       display: flex;
       justify-content: center;
       align-items: center;
-      margin-top: 5rem;
+      margin-top: 2rem;
 
     }
 
@@ -353,26 +356,28 @@ margin-top: 25px;
     }
 
     .btn-Alterar{   
-      font-size: 2.5rem;
+      font-size: 2rem;
       font-family: Arial, Helvetica, sans-serif;
-      height: 6rem;
+      height: 7rem;
       width: 70%;      
     }
 
     .btn-Voltar{  
-      font-size: 2.5rem;
+      font-size: 2rem;
       font-family: Arial, Helvetica, sans-serif;
-      height: 6rem;
+      height: 7rem;
       width: 70%;  
           
     }
 
     .margin{
-      margin-top: 5rem;
+      margin-top: 2rem;
     }
 
   }
 
+
+  
 
   
 
