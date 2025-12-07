@@ -49,16 +49,17 @@ const TelaProdutoDetalhes = () => {
           >
             Nome do Produto: &nbsp;
             <input
+            className="input"
               type="text"
               size={50}
               role="group"
               aria-label="nome do produto listado"
               value={input_nome}
               tabIndex={1}
-              style={{ width: "80%", height: "2.5rem", backgroundColor: "white", 
+              /*style={{ width: "80%", height: "2.5rem", backgroundColor: "white", 
                 border:"2px solid black", fontWeight: "bold", color: "black",  
                 textAlign: "center", fontSize: "1.5rem", fontFamily: "arial" 
-              }}
+              }}*/
               onChange={(campo) => setInput_nome(campo.target.value)}
             />
           </h2>
@@ -70,16 +71,17 @@ const TelaProdutoDetalhes = () => {
           >
             Valor do Produto: &nbsp;
             <input
+              className="input"
               type="number"
               step="0.01"
               role="group"
               aria-label="valor do produto"
               value={input_valor}
               tabIndex={1}
-              style={{ width: "80%", height: "2.5rem", backgroundColor: "white", 
+              /*style={{ width: "80%", height: "2.5rem", backgroundColor: "white", 
                 border:"2px solid black", fontWeight: "bold", color: "black",  
                 textAlign: "center", fontSize: "1.5rem", fontFamily: "arial" 
-              }}
+              }}*/
               onChange={(campo) => setInput_valor(campo.target.value)}
             />
           </h2>

@@ -29,15 +29,16 @@ const FormCadProduto = ({ adicionar_produto }) => {
         <h2 className="h2">
           Nome do Produto: &nbsp;
           <input
+            className="input"
             type="text"
             role="group"
             aria-label="Nome do produto listado"
             value={input_nomeProduto}
             tabIndex={1}
-            style={{ width: "65%", height: "2.5rem", backgroundColor: "white", 
+            /*style={{ width: "65%", height: "2.5rem", backgroundColor: "white", 
               border:"2px solid black",   
               textAlign: "center", fontSize: "1.5rem", fontFamily: "arial" 
-            }}
+            }}*/
             placeholder="Digite o Nome do produto"
             onChange={(e) => setInput_nomeProduto(e.target.value)}
           />
@@ -52,15 +53,16 @@ const FormCadProduto = ({ adicionar_produto }) => {
         >
           Valor do Produto: &nbsp;
           <input
+            className="input"
             type="number"
             role="group"
             aria-label="Valor do produto listado"
             value={input_valorProduto}
             tabIndex={1}
-            style={{ width: "65%", height: "2.5rem", backgroundColor: "white", 
+            /*style={{ width: "65%", height: "2.5rem", backgroundColor: "white", 
               border:"2px solid black",  
               textAlign: "center", fontSize: "1.5rem", fontFamily: "arial" 
-            }}
+            }}*/
             placeholder="Digite o Valor do produto"
             onChange={(campo) => setInput_valorProduto(campo.target.value)}
           />
